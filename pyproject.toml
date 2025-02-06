@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel", "pyyaml"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptbook"
+version = "0.5.0"
+dependencies = [
+    "requests",
+    "pyyaml"
+]
+requires-python = ">=3.7"
+description = "PromptBook is a powerful and flexible prompt management library designed for AI-driven workflows"
+authors = [{ name = "Sharfuddin Shawon", email = "sharf@shawon.me" }]
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+promptbook = "promptbook.cli:main"

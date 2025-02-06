@@ -1,0 +1,6 @@
+ollama:
+  model: "llama3.2:1b"
+  stream: true
+  debug: false
+  api_url: "http://localhost:11434/api/chat"
+  tags_url: "http://localhost:11434/api/tags"
